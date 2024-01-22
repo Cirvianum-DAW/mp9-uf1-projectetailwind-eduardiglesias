@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <header class="bg-black text-white py-4 text-center md:py-6 lg:py-8">
+        <div
+          class="bg-black flex flex-col justify-center items-center md:flex-row md:items-center md:w-full"
+        >
+          <nav class="mb-4 md:mb-0">
+            <a
+              href="index.html"
+              class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
+              >Home</a
+            >
+            <a
+              href="models.html"
+              class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
+              >Models</a
+            >
+            <a
+              href="contact.html"
+              class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
+              >Contact</a
+            >
+            <a
+              href="help.html"
+              class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
+              >Help Us</a
+            >
+          </nav>
+        </div>
+      </header>
 
+      <header class="bg-gray-800 text-white text-center py-4">
+        <h1 class="text-2xl font-bold">HELP US</h1>
+      </header>
+
+      <main class="h-full flex items-center justify-center bg-no-repeat bg-cover w-full" style="background-image: url('/src/images/models/background/bg_image.jpg');">
+        <hgroup class="text-white text-center">
+            <h1 class="text-2xl font-bold">VALORA LA NOSTRA WEB I AIXÍ LA PODREM MILLORAR</h1>
+        </hgroup>
+        <form class="form">
+            <h2 class="text-white">HELP US</h2>
+            <p><input class="w-full p-2 bg-transparent border-b-2 border-white text-white" placeholder="Posa el teu nom aquí..." /></p>
+            <p><input class="w-full p-2 bg-transparent border-b-2 border-white text-white" placeholder="Indica el teu correu electrònic..." /></p>
+            <p><input class="w-full p-2 bg-transparent border-b-2 border-white text-white" placeholder="Escriu el teu missatge..." /></p>
+            <button class="float-right p-2 border-2 border-white cursor-pointer transition bg-gray-500 hover:bg-gray-700 text-white">Send Message</button>
+            <div class="absolute bottom-0 right-0 bg-gray-700 text-white w-72 p-2 rounded">
+                <span class="mr-2"><i class="fa fa-phone"></i> 625 148 603</span>
+                <span><i class="fa fa-envelope-o"></i> eduard.iglesias@cirvinaum.cat</span>
+            </div>
+        </form>
+    </main>
+    
+    <footer class="bg-black text-white text-center p-4 md:p-8 lg:p-12">
+        <p>&copy; 2024 Eduard Iglesias Pujolasus. Tots els drets reservats.</p>
+      </footer>
+</body>
+</html>
