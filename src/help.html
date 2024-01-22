@@ -40,21 +40,23 @@
         <h1 class="text-2xl font-bold">HELP US</h1>
       </header>
 
-      <main class="h-full flex items-center justify-center bg-no-repeat bg-cover w-full" style="background-image: url('/src/images/models/background/bg_image.jpg');">
-        <hgroup class="text-white text-center">
-            <h1 class="text-2xl font-bold">VALORA LA NOSTRA WEB I AIXÍ LA PODREM MILLORAR</h1>
-        </hgroup>
-        <form class="form">
-            <h2 class="text-white">HELP US</h2>
-            <p><input class="w-full p-2 bg-transparent border-b-2 border-white text-white" placeholder="Posa el teu nom aquí..." /></p>
-            <p><input class="w-full p-2 bg-transparent border-b-2 border-white text-white" placeholder="Indica el teu correu electrònic..." /></p>
-            <p><input class="w-full p-2 bg-transparent border-b-2 border-white text-white" placeholder="Escriu el teu missatge..." /></p>
-            <button class="float-right p-2 border-2 border-white cursor-pointer transition bg-gray-500 hover:bg-gray-700 text-white">Send Message</button>
-            <div class="absolute bottom-0 right-0 bg-gray-700 text-white w-72 p-2 rounded">
-                <span class="mr-2"><i class="fa fa-phone"></i> 625 148 603</span>
-                <span><i class="fa fa-envelope-o"></i> eduard.iglesias@cirvinaum.cat</span>
+      <main class="h-screen flex flex-col items-center justify-start bg-no-repeat bg-cover w-full relative" style="background-image: url('/src/images/help/bmw_help.jpg');">
+        <h1 class="text-2xl font-bold text-white m-6 ">VALORA LA NOSTRA WEB I AIXÍ LA PODREM MILLORAR</h1>
+    
+        <form class="bg-white p-8 rounded-2xl mx-auto mt-8 sm:w-1/2">
+            <h2 class="text-gray-800 text-2xl font-bold mb-4">HELP US</h2>
+            <div class="mb-4">
+                <input class="w-full py-2 px-4 border-2 border-gray-300 rounded focus:outline-none focus:border-gray-500" placeholder="Posa el teu nom aquí..." />
             </div>
-        </form>
+            <div class="mb-4">
+                <input class="w-full py-2 px-4 border-2 border-gray-300 rounded focus:outline-none focus:border-gray-500" placeholder="Indica el teu correu electrònic..." />
+            </div>
+            <div class="mb-4">
+                <textarea class="w-full py-2 px-4 border-2 border-gray-300 rounded focus:outline-none focus:border-gray-500" placeholder="Escriu el teu missatge..."></textarea>
+            </div>
+            <button class="w-full py-2 px-4 bg-gray-700 text-white rounded cursor-pointer transition hover:bg-gray-900">Send Message</button>
+        </form>        
+        
     </main>
     
     <footer class="bg-black text-white text-center p-4 md:p-8 lg:p-12">
