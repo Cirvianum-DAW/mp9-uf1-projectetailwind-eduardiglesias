@@ -1,66 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Help</title>
     <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
+  </head>
+  <body>
     <header class="bg-black text-white py-4 text-center md:py-6 lg:py-8">
-        <div
-          class="bg-black flex flex-col justify-center items-center md:flex-row md:items-center md:w-full"
-        >
-          <nav class="mb-4 md:mb-0">
-            <a
-              href="index.html"
-              class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
-              >Home</a
-            >
-            <a
-              href="models.html"
-              class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
-              >Models</a
-            >
-            <a
-              href="contact.html"
-              class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
-              >Contact</a
-            >
-            <a
-              href="help.html"
-              class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
-              >Help</a
-            >
-          </nav>
+      <div
+        class="bg-black flex flex-col justify-center items-center md:flex-row md:items-center md:w-full"
+      >
+        <nav class="mb-4 md:mb-0">
+          <a
+            href="index.html"
+            class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
+            >Home</a
+          >
+          <a
+            href="models.html"
+            class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
+            >Models</a
+          >
+          <a
+            href="contact.html"
+            class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
+            >Contact</a
+          >
+          <a
+            href="help.html"
+            class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
+            >Help</a
+          >
+          <a
+            href="links.html"
+            class="btn text-white p-2 navbar-item hover:bg-white hover:text-black hover:rounded-lg"
+            >Links</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <header class="bg-gray-800 text-white text-center py-4">
+      <h1 class="text-2xl font-bold">HELP US</h1>
+    </header>
+
+    <main
+      class="h-screen flex flex-col items-center justify-start bg-no-repeat bg-cover w-full relative"
+      style="background-image: url('/src/images/help/bmw_help.jpg')"
+    >
+      <h1 class="text-2xl font-bold text-white m-6">
+        VALORA LA NOSTRA WEB I AIXÍ LA PODREM MILLORAR
+      </h1>
+
+      <form class="bg-white p-8 rounded-2xl mx-auto mt-8 sm:w-1/2">
+        <h2 class="text-gray-800 text-2xl font-bold mb-4">HELP US</h2>
+        <div class="mb-4">
+          <input
+            class="w-full py-2 px-4 border-2 border-gray-300 rounded focus:outline-none focus:border-gray-500"
+            placeholder="Put your name here..."
+          />
         </div>
-      </header>
-
-      <header class="bg-gray-800 text-white text-center py-4">
-        <h1 class="text-2xl font-bold">HELP US</h1>
-      </header>
-
-      <main class="h-screen flex flex-col items-center justify-start bg-no-repeat bg-cover w-full relative" style="background-image: url('/src/images/help/bmw_help.jpg');">
-        <h1 class="text-2xl font-bold text-white m-6 ">VALORA LA NOSTRA WEB I AIXÍ LA PODREM MILLORAR</h1>
-    
-        <form class="bg-white p-8 rounded-2xl mx-auto mt-8 sm:w-1/2">
-            <h2 class="text-gray-800 text-2xl font-bold mb-4">HELP US</h2>
-            <div class="mb-4">
-                <input class="w-full py-2 px-4 border-2 border-gray-300 rounded focus:outline-none focus:border-gray-500" placeholder="Put your name here..." />
-            </div>
-            <div class="mb-4">
-                <input class="w-full py-2 px-4 border-2 border-gray-300 rounded focus:outline-none focus:border-gray-500" placeholder="Enter your email..." />
-            </div>
-            <div class="mb-4">
-                <textarea class="w-full py-2 px-4 border-2 border-gray-300 rounded focus:outline-none focus:border-gray-500" placeholder="Write your message..."></textarea>
-            </div>
-            <button class="w-full py-2 px-4 bg-gray-700 text-white rounded cursor-pointer transition hover:bg-gray-900">Send Message</button>
-        </form>        
-        
+        <div class="mb-4">
+          <input
+            class="w-full py-2 px-4 border-2 border-gray-300 rounded focus:outline-none focus:border-gray-500"
+            placeholder="Enter your email..."
+          />
+        </div>
+        <div class="mb-4">
+          <textarea
+            class="w-full py-2 px-4 border-2 border-gray-300 rounded focus:outline-none focus:border-gray-500"
+            placeholder="Write your message..."
+          ></textarea>
+        </div>
+        <button
+          class="w-full py-2 px-4 bg-gray-700 text-white rounded cursor-pointer transition hover:bg-gray-900"
+        >
+          Send Message
+        </button>
+      </form>
     </main>
-    
+
     <footer class="bg-black text-white text-center p-4 md:p-8 lg:p-12">
-        <p>&copy; 2024 Eduard Iglesias Pujolasus. All rights reserved.</p>
-      </footer>
-</body>
+      <p>&copy; 2024 Eduard Iglesias Pujolasus. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
